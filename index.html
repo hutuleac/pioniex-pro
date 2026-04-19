@@ -1019,7 +1019,7 @@ function FeedC({ theme, data, ranked, idx, setIdx, setDetail, mode, setMode, onR
   const fg=pulse.fearGreed||{value:50,label:'Neutral'};
   const sm=pulse.smartMoney||{ratio:1.0,bias:'neutral'};
   return (
-    <div style={{flex:1,overflow:'auto',paddingBottom:100}}>
+    <div style={{flex:1,overflowX:'hidden',overflowY:'auto',paddingBottom:100}}>
       <div style={{position:'relative',padding:'56px 20px 22px',background:`linear-gradient(180deg,${color}20,transparent 70%)`,overflow:'hidden'}}>
         <div style={{display:'flex',alignItems:'center',justifyContent:'space-between',marginBottom:18}}>
           <div style={{display:'flex',alignItems:'center',gap:8}}>
